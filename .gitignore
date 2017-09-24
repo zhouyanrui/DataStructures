@@ -1,0 +1,14 @@
+
+DataStructures/.vs/DataStructures/v14/.suo
+*.db
+*.opendb
+*.filters
+*.log
+*.obj
+*.tlog
+*.idb
+*.pdb
+*.pch
+*.ilk
+*.ipch
+*.exe
