@@ -6,7 +6,8 @@
 
 int main()
 {
-    CLinearList *x = (CLinearList)(new CArrayList<int>(100));
+    CLinearList *x = (CLinearList)new CArrayList<int>(100);
+    CArrayList<double> y(100);
     return 0;
 }
 

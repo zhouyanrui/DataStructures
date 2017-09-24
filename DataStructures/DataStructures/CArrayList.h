@@ -8,7 +8,7 @@ class CArrayList : public CLinearList<T>
 {
 public:
     CArrayList(int initialCapacity = 10);
-    CArrayList(const CArrayList<T>& theList);
+    CArrayList(const CArrayList<T>&);
     ~CArrayList() {delete [] element};
 
     bool empty() { return listSize == 0 };
